@@ -1,4 +1,3 @@
-
 public class ExceptionPractice {
   public static void main(String[] args)throws Exception {
     
@@ -15,11 +14,11 @@ public class ExceptionPractice {
 	 System.out.println("Exception");
 	 throw new NullPointerException();
 	}
-	
-	finally{
+	finally
+	{
 	  System.out.println("Final clause is executed");
-    }
-	  System.out.println("The end");
+    	}
+	System.out.println("The end");
     }
   }
 
