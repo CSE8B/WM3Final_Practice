@@ -2,8 +2,8 @@ public class ExceptionPractice {
   public static void main(String[] args)throws Exception {
     
 	try{
-	  //int i =0;
-	  //int j= 1/i;
+	  int i =0;
+	  int j= 1/i;
 	  int[]a = new int[10];
 	    System.out.println(a[10]);
 	 }
